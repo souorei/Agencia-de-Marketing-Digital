@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ouro Digital</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <li><a href="#" class="logo-link"><img src="logo.jpg" alt="Logo Ouro Digital" class="logo-nav"></a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#sobrenos">Sobre Nós</a></li>
+            <li><a href="#metodo">Método</a></li>
+            <li><a href="#perguntas">Perguntas</a></li>
+            <li><a href="https://wa.me/968112456" class="contact-button" target="_blank"><button>Contacto</button></a></li>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="section1">
+                <h2 style="font-size: 22px;">A Ouro Digital é uma agência de Marketing (360º), especializada em soluções para a tua empresa</h2>
+                <h1 style="font-size: 64px;">Eleva o teu negócio como a melhor equipa de Marketing Digital da Madeira</h1>
+                <a href="https://wa.me/968112456" target="_blank"><button>Fala com um especialista</button></a>
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="servicos">
+                <h1>Serviços</h1>
+            </div>
+            <div class="container">
+                <div class="image-row">
+                    <img src="seo.jpg" alt="Imagem 1">
+                    <img src="web.jpg" alt="Imagem 2">
+                    <img src="redes.jpg" alt="Imagem 3">
+                    <img src="analise.jpg" alt="Imagem 4">
+                </div>
+                <div class="image-row">
+                    <img src="trafego.jpg" alt="Imagem 5">
+                    <img src="email.jpg" alt="Imagem 6">
+                    <img src="treinamento.jpg" alt="Imagem 7">
+                    <img src="crm.jpg" alt="Imagem 8">
+                </div>
+            </div>
+        </section>
+
+        <section id="sobrenos">
+            <div class="sobrenos">
+                <h1>Sobre a Agência</h1>
+            </div>
+            <div class="infosobrenos">
+                <div class="infoagencia">
+                    <p>A Ouro Digital é uma agência de marketing digital que oferece soluções para empresas 
+                        que buscam destacar-se num mercado altamente competitivo. A nossa principal especialização 
+                        é o SEO, mas contamos com uma vasta equipa de especialistas, desde programação front-end 
+                        e web design a gestão de redes sociais, consultoria e análise de mercado digital, criação 
+                        de anúncios nas principais plataformas digitais e muito mais.</p>
+                    <a href="https://wa.me/968112456" target="_blank"><button>Pedir Orçamento</button></a>
+                </div>
+                <div class="infoagenciafoto">
+                    <img src="agencia.jpg" alt="Equipa da Agência Ouro Digital" class="hover-effect">
+                </div>
+            </div>
+        </section>
+
+        <section class="metricas">
+            <h2 class="titulo-metricas">Número de Parcerias Digitais</h2>
+            <div class="stats-container">
+                <div class="stat-item">
+                    <div class="stat-numero">36</div>
+                    <div class="stat-label">Empresas Locais</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-numero">+17</div>
+                    <div class="stat-label">Empresas Continentais</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-numero">+2</div>
+                    <div class="stat-label">Empresas Mundiais</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="metodo">
+            <div class="metodo">
+                <h1>Método de Trabalho</h1>
+            </div>
+            <div class="passo-container">
+                <div class="passo" data-step="1" onclick="togglePasso(this)">
+                    <h3>Análise do negócio</h3>
+                    <div class="conteudo">
+                        <p>
+                            No primeiro passo, iremos avaliar e fazer toda a análise comercial do seu negócio online, para compreender a sua concorrência no mercado e como ele está a desempenhar-se no espaço digital.
+                        </p>
+                    </div>
+                </div>
+                <div class="passo" data-step="2" onclick="togglePasso(this)">
+                    <h3>Estruturação</h3>
+                    <div class="conteudo">
+                        <p>Neste passo, vamos organizar o negócio e identificar quais são os problemas e as novas oportunidades que podemos explorar, de forma a aumentar o tráfego.</p>
+                    </div>
+                </div>
+                <div class="passo" data-step="3" onclick="togglePasso(this)">
+                    <h3>Planeamento</h3>
+                    <div class="conteudo">
+                        <p>Após a estruturação, vamos elaborar o planeamento e identificar quais são as melhores ferramentas e estratégias para implementar o que foi estudado.</p>
+                    </div>
+                </div>
+                <div class="passo" data-step="4" onclick="togglePasso(this)">
+                    <h3>Execução</h3>
+                    <div class="conteudo">
+                        <p>Na fase de execução, colocaremos em prática todas as estratégias e análises definidas nas etapas prévias.</p>
+                    </div>
+                </div>
+                <div class="passo" data-step="5" onclick="togglePasso(this)">
+                    <h3>Análise dos resultados</h3>
+                    <div class="conteudo">
+                        <p>A análise e o relatório final constituirão a última etapa do plano, com o objetivo de avaliar o impacto das estratégias implementadas e maximizar os resultados dentro do orçamento definido.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="perguntas">
+            <h1 style="text-align: center; font-family: 'Times New Roman', Times, serif; font-size: 36px;color: #343434;">Perguntas Frequentes</h1>
+            <div class="perguntas">
+                <div class="perguntash1">
+                    <p>Não encontrou a resposta para sua dúvida? Fale connosco</p>
+                    <a href="https://wa.me/968112456" target="_blank"><button>Fale com o suporte</button></a>
+                </div>
+                <div class="faq-container">
+                    <div class="faq-item" onclick="toggleFAQ(this)">
+                        <div class="pergunta">
+                            <h3>Como funciona a nossa consultoria? </h3>
+                            <div class="icone">+</div>
+                        </div>
+                        <div class="resposta">
+                            <p>
+                                Marcamos uma conversa inicial para compreender detalhadamente o seu cenário, objetivos e desafios atuais. Paralelamente, realizamos uma análise comparativa da sua estrutura digital. Com base nesta discussão, a nossa equipa desenvolve um estudo de mercado, com o objetivo de identificar pontos de melhoria e estratégias ainda não exploradas.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFAQ(this)">
+                        <div class="pergunta">
+                            <h3>Quais a qualificações da equipa Ouro Digital?</h3>
+                            <div class="icone">+</div>
+                        </div>
+                        <div class="resposta">
+                            <p>
+                                A Ouro Digital conta com uma equipa multidisciplinar, composta por profissionais qualificados em Marketing Digital, Programação e Comunicação. Combinamos conhecimento técnico com experiência prática em empreendedorismo, dedicando-nos a otimizar continuamente os resultados dos parceiros que connosco colaboram.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="faq-item" onclick="toggleFAQ(this)">
+                        <div class="pergunta">
+                            <h3>Qual a duração mínima de contrato?</h3>
+                            <div class="icone">+</div>
+                        </div>
+                        <div class="resposta">
+                            <p>
+                                O prazo mínimo de contrato varia consoante a complexidade do projeto, situando-se habitualmente nos 6 meses.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="footerinfo">
+                <p>Peça uma análise do seu negócio <br> no botão abaixo.</p>
+                <a href="https://wa.me/968112456" target="_blank"><button>Mais Informações <i class="bi bi-whatsapp"></i></button></a>
+            </div>
+            <div class="footercontacto">
+                <p><i class="bi bi-whatsapp"></i>&nbsp; (11) 99888-3872</p>
+                <p><i class="bi bi-envelope"></i>&nbsp; contato@dynamodigital.com.br</p>
+            </div>
+            <div class="footerredes">
+                <h1 style="font-size: 21px; font-weight: lighter;">Siga as nossas Redes</h1>
+                <div class="redes-icons">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p style="text-align: center;">© 2025 Ouro Digital. Todos os Direitos Reservados.</p>
+    </footer>
+
+    <script>
+        function togglePasso(elemento) {
+            document.querySelectorAll('.passo').forEach(passo => {
+                if (passo !== elemento) passo.classList.remove('ativo');
+            });
+            elemento.classList.toggle('ativo');
+        }
+
+        function toggleFAQ(elemento) {
+            document.querySelectorAll('.faq-item').forEach(item => {
+                if (item !== elemento) item.classList.remove('ativo');
+            });
+            elemento.classList.toggle('ativo');
+        }
+    </script>
+</body>
+</html>
